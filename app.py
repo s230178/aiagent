@@ -35,6 +35,6 @@ b = st.number_input('  카페인 몇잔 마시니? ', value=0.0 )
                                                            
 
 if st.button('너 얼마나 자니?'):            
-        input_data = [[a,b,]]   
+        input_data = [[a,b]]   
         p = model.predict(input_data)         # model이 예측한 값을 p에 저장한다
         st.write('너의 코코넨네 시간', p)
