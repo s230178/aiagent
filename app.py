@@ -4,7 +4,7 @@ import streamlit as st
 
 # 1. 기계학습 모델 파일 로드
 import joblib
-model = joblib.load('')
+model = joblib.load('linear_regression_model.pkl')
 
 # 2. 모델 설명
 st.title('친구야 잠은 자고 다니니?')
